@@ -20,9 +20,11 @@
     "ioredis": "^4.26.0",
     "joi": "^17.4.0",
     "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.7.0",
     "mongoose": "^5.12.3",
     "nodemon": "^2.0.16",
     "rate-limit-redis": "^2.1.0",
+    "redis": "^4.1.0",
     "sucrase": "^3.18.1"
   }
 }

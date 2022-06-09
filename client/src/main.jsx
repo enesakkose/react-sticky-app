@@ -4,7 +4,14 @@ import { QueryClient, QueryClientProvider} from 'react-query'
 import App from './App'
 import './index.scss'
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnMount: false,
+      refetchOnWindowFocus: false
+    }
+  }
+})
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

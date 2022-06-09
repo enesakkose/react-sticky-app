@@ -1,0 +1,32 @@
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+    label{
+        display: flex;
+        flex-direction: column;
+        input{
+            width: 250px;
+            height: 30px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .error{
+            border-color: red;
+        }
+        .green{
+            border-color: greenyellow;
+        }
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    
+}
